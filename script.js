@@ -4,7 +4,7 @@ var word = words[Math.floor(Math.random() * words.length)];
 console.log(word);
 
 var answerArray = [];
-for (let index = 0; index < answerArray.length; index++) {
+for (var i = 0; i < word.length; i++) {
   answerArray[i] = "_";
 }
 
